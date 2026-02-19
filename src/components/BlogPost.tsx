@@ -132,13 +132,13 @@ The Helm Kanvas Snapshot plugin is an extension for Helm — the de-facto packag
 
 **The Problem It Solves**
 
-Helm charts are powerful, but their rendered output can be difficult to reason about. A single \`helm upgrade\` touching a microservices application can modify dozens of Kubernetes resources simultaneously. Without a visual record, answering the question "what exactly changed between releases?" often means diffing large blocks of YAML.
+Helm charts are powerful, but their rendered output can be difficult to reason about. A single **helm upgrade** touching a microservices application can modify dozens of Kubernetes resources simultaneously. Without a visual record, answering the question "what exactly changed between releases?" often means diffing large blocks of YAML.
 
 The Kanvas Snapshot plugin changes this by generating a topology diagram before and after each operation, giving you a side-by-side visual diff at the resource graph level.
 
 **Key Features**
 
-- **Automated snapshot capture**: Triggered automatically on \`helm install\`, \`helm upgrade\`, and \`helm rollback\`
+- **Automated snapshot capture**: Triggered automatically on helm install, helm upgrade, and helm rollback
 - **Visual diff**: Highlights added, modified, and removed resources between snapshots
 - **Rollback integration**: Link any snapshot to a specific Helm revision, enabling one-click rollback with full visual context
 - **CLI and CI/CD support**: Can be run from the terminal or incorporated into GitHub Actions pipelines
@@ -148,15 +148,13 @@ The Kanvas Snapshot plugin changes this by generating a topology diagram before 
 
 Install the plugin with a single command:
 
-\`\`\`bash
-helm plugin install https://github.com/meshery/helm-kanvas-snapshot
-\`\`\`
+    helm plugin install https://github.com/meshery/helm-kanvas-snapshot
 
-After installation, connect it to your Meshery instance by setting the \`MESHERY_TOKEN\` and \`MESHERY_SERVER\` environment variables. From that point on, every Helm operation in your terminal or CI pipeline will produce a visual snapshot automatically.
+After installation, connect it to your Meshery instance by setting the MESHERY_TOKEN and MESHERY_SERVER environment variables. From that point on, every Helm operation in your terminal or CI pipeline will produce a visual snapshot automatically.
 
 **Example Workflow**
 
-1. Run \`helm upgrade my-app ./charts/my-app --set image.tag=v2.1.0\`
+1. Run **helm upgrade my-app --set image.tag=v2.1.0**
 2. The plugin intercepts the post-install hook and renders the cluster topology
 3. A URL to the Kanvas snapshot appears in your terminal output
 4. Your team reviews the visual diff in the browser before merging the deploy PR
