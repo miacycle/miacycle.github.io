@@ -128,7 +128,7 @@ I returned along the same corridor, which looks entirely different when ridden i
 
 **What Is the Helm Kanvas Snapshot Plugin?**
 
-The Helm Kanvas Snapshot plugin is an extension for Helm — the de-facto package manager for Kubernetes — that integrates directly with Meshery's Kanvas visualisation platform. When you deploy or upgrade a Helm release, the plugin automatically captures a snapshot of the resulting cluster configuration and stores it as a visual, shareable Kanvas diagram.
+The Helm Kanvas Snapshot plugin is an extension for Helm — the de-facto package manager for Kubernetes — that integrates directly with Meshery's Kanvas visualization platform. When you deploy or upgrade a Helm release, the plugin automatically captures a snapshot of the resulting cluster configuration and stores it as a visual, shareable Kanvas diagram.
 
 **The Problem It Solves**
 
