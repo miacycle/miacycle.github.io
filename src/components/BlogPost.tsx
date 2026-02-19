@@ -31,7 +31,7 @@ The trails vary significantly in difficulty. Some sections feature tight switchb
 
 **Wildlife and Scenery**
 
-One of the best parts of riding in this corridor is the wildlife. I spotted a lyre bird scratching through leaf litter near a creek crossing and heard the unmistakable call of yellow-tailed black cockatoos overhead. The eucalyptus canopy kept the temperature surprisingly comfortable even on a warm April morning.
+One of the best parts of riding in this corridor is the wildlife. I spotted a lyrebird scratching through leaf litter near a creek crossing and heard the unmistakable call of yellow-tailed black cockatoos overhead. The eucalyptus canopy kept the temperature surprisingly comfortable even on a warm April morning.
 
 **Practical Notes**
 
