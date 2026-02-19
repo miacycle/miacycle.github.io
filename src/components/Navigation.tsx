@@ -1,6 +1,6 @@
 
 import { Link } from "react-router-dom";
-import { Moon, Sun } from "lucide-react";
+import { Moon, Sun, Bike } from "lucide-react";
 import { Button } from "./ui/button";
 import { useTheme } from "@/hooks/use-theme";
 
@@ -11,8 +11,8 @@ export const Navigation = () => {
     <nav className="fixed w-full top-0 z-50 bg-background/80 backdrop-blur-md border-b">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <Link to="/" className="text-xl font-semibold text-primary">
-            MG
+          <Link to="/" className="text-primary hover:text-primary/80 transition-colors">
+            <Bike className="h-7 w-7" />
           </Link>
           
           <div className="flex items-center gap-8">
