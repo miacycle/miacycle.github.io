@@ -19,21 +19,98 @@ const blogPosts: BlogPost[] = [
     title: "Discovering Hidden Trails in Sydney's North Shore",
     date: "April 15, 2025",
     category: "cycling",
-    content: "Last weekend, I explored some spectacular mountain biking trails connecting Ku-ring-gai Chase National Park to Garigal National Park. The technical single tracks and stunning harbor views made for an unforgettable ride. It was quite fun."
+    content: `Last weekend, I explored some spectacular mountain biking trails connecting Ku-ring-gai Chase National Park to Garigal National Park. The technical single tracks and stunning harbor views made for an unforgettable ride. It was quite fun.
+
+**The Route**
+
+The adventure began at Terrey Hills and wound through a series of single tracks that most riders don't know exist. The trail network stitches together sections of both national parks, offering a surprisingly continuous ride through native bushland. I followed a tip from a local cycling club and was rewarded with over 25 km of mostly unpaved terrain.
+
+**Technical Highlights**
+
+The trails vary significantly in difficulty. Some sections feature tight switchbacks descending toward creek crossings, while others open up into fast flowing fire roads with glimpses of the distant harbour. A particularly memorable section near West Head Road required careful navigation over exposed sandstone slabs — grippy in the dry, but something to respect after rain.
+
+**Wildlife and Scenery**
+
+One of the best parts of riding in this corridor is the wildlife. I spotted a lyrebird scratching through leaf litter near a creek crossing and heard the unmistakable call of yellow-tailed black cockatoos overhead. The eucalyptus canopy kept the temperature surprisingly comfortable even on a warm April morning.
+
+**Practical Notes**
+
+- **Distance**: approximately 25 km
+- **Elevation gain**: around 480 m
+- **Difficulty**: intermediate to advanced
+- **Best access point**: Terrey Hills or Warrimoo Avenue, Forestville
+- Carry plenty of water — there are no taps on this stretch
+- A GPS track or detailed trail map is strongly recommended
+
+**Final Thoughts**
+
+This is easily one of my favourite rides within an hour of the Sydney CBD. The combination of technical trail riding, coastal scenery, and genuine solitude makes it a must-do for anyone willing to explore beyond the well-signposted tourist circuits. I am already planning a return trip to ride the route in the opposite direction and pick up a few sections I missed.`
   },
   {
     id: "sunrise-ride",
     title: "Sunrise Ride Around Sydney Harbour",
     date: "April 10, 2025",
     category: "cycling",
-    content: "There's something magical about cycling across the Harbour Bridge at dawn. Today's 30km loop took me through Kirribilli, Neutral Bay, and back through the CBD as the city was just waking up."
+    content: `There's something magical about cycling across the Harbour Bridge at dawn. Today's 30km loop took me through Kirribilli, Neutral Bay, and back through the CBD as the city was just waking up.
+
+**Setting Off Before Sunrise**
+
+I rolled out from Milsons Point at 5:45 am, just as the eastern sky was beginning to lighten. The air was crisp and still — a rare combination in Sydney — and the bridge was essentially empty of traffic. Riding across the pedestrian and cyclist lane with nothing but the low hum of the steel beneath my wheels and the harbour glittering below is an experience I never take for granted.
+
+**Kirribilli and the Lower North Shore**
+
+Descending into Kirribilli, I followed the foreshore path past the Prime Minister's official residence and the old naval precinct. The water was glassy and a lone sculler was already out, carving perfect arcs in the silence. From there I wound through Neutral Bay and Cremorne, where steep streets and tight corners kept the legs honest.
+
+**The Return Leg Through the City**
+
+Crossing back via the bridge as the first orange light hit the Opera House sails is one of those views that never gets old. I dropped into the CBD and rode through streets that would be choked with traffic in two hours but at 7 am belonged entirely to cyclists and delivery workers. A coffee stop at a tiny espresso bar in Surry Hills provided the perfect midpoint refuel.
+
+**Ride Stats**
+
+- **Distance**: 31 km
+- **Elevation gain**: 340 m
+- **Moving time**: 1 hour 22 minutes
+- **Start / finish**: Milsons Point
+
+**Tips for the Route**
+
+The most important tip is to start early — both for the light and to avoid the growing foot traffic on the bridge path by mid-morning. Weekend mornings between 5:30 and 7:00 am are ideal. The descent from the bridge into Kirribilli has a tight left-hander at the bottom; take it steady if the road is damp.
+
+Harbour Bridge sunrise rides are something I try to do at least once a month. No matter how familiar the route becomes, Sydney puts on a different show every time.`
   },
   {
     id: "coastal-adventure",
     title: "Coastal Adventure: Bondi to La Perouse",
     date: "April 3, 2025",
     category: "cycling",
-    content: "Completed the scenic Eastern Beaches coastal ride from Bondi to La Perouse. The route offers stunning ocean views, challenging climbs, and plenty of coffee stops along the way."
+    content: `Completed the scenic Eastern Beaches coastal ride from Bondi to La Perouse. The route offers stunning ocean views, challenging climbs, and plenty of coffee stops along the way.
+
+**Why This Ride Is a Sydney Classic**
+
+The Eastern Beaches corridor from Bondi down to La Perouse is one of those routes that locals know well but rarely tire of. At roughly 35 km out and back, it threads through Coogee, Maroubra, and Botany Bay National Park, with the Tasman Sea as a constant companion on one side and sandstone cliffs on the other.
+
+**The Opening Climb: Campbell Parade to Bronte**
+
+After the inevitable chaos of Bondi's Campbell Parade, the road climbs sharply toward Bronte. This short punch is a good early warm-up signal — if your legs feel hollow here, the day will be long. I crested the rise to find a stunning view back over Bondi Beach, the arc of white sand already dotted with early morning swimmers.
+
+**Coogee to Maroubra: The Middle Miles**
+
+The section between Coogee and Maroubra hugs the coast closely, dipping down toward sea level and then kicking back up at regular intervals. The road surface here is good and the gradient rarely exceeds eight percent, making it accessible for riders of most fitness levels. A bakery on Maroubra's beachfront road became my mandatory coffee and almond croissant stop.
+
+**La Perouse and Botany Bay**
+
+The final stretch south enters the fringes of Botany Bay National Park and delivers a palpable change in atmosphere — fewer cars, more native vegetation, and occasional glimpses across the bay toward the industrial port. La Perouse itself is a fascinating historical site: it was here that the French expedition of La Pérouse anchored in January 1788, just days after the arrival of the First Fleet.
+
+**Ride Stats**
+
+- **Distance**: ~35 km (one way); ~68 km return
+- **Elevation gain**: approximately 620 m (return)
+- **Highlights**: Bronte, Coogee, Maroubra Beach, Bare Island, La Perouse headland
+- **Coffee stops**: multiple options in Coogee and Maroubra
+
+**Getting Back**
+
+I returned along the same corridor, which looks entirely different when ridden in the opposite direction — the light shifts, the climbs become descents, and familiar landmarks reveal new angles. By the time I rolled back into Bondi, the beach was filling up and the cafes had queues. Perfect timing.`
   },
   {
     id: "multi-cluster-management",
@@ -47,7 +124,46 @@ const blogPosts: BlogPost[] = [
     title: "Introducing the Helm Kanvas Snapshot Plugin",
     date: "April 16, 2025",
     category: "tech",
-    content: "Explore the powerful [Helm Kanvas Snapshot plugin](https://meshery.io/extensions/helm-kanvas-snapshot) that enables versioning and rollback capabilities for your Kubernetes configurations. See how it simplifies configuration management and provides instant visualization of your cluster state changes."
+    content: `Explore the powerful [Helm Kanvas Snapshot plugin](https://meshery.io/extensions/helm-kanvas-snapshot) that enables versioning and rollback capabilities for your Kubernetes configurations. See how it simplifies configuration management and provides instant visualization of your cluster state changes.
+
+**What Is the Helm Kanvas Snapshot Plugin?**
+
+The Helm Kanvas Snapshot plugin is an extension for Helm — the de-facto package manager for Kubernetes — that integrates directly with Meshery's Kanvas visualization platform. When you deploy or upgrade a Helm release, the plugin automatically captures a snapshot of the resulting cluster configuration and stores it as a visual, shareable Kanvas diagram.
+
+**The Problem It Solves**
+
+Helm charts are powerful, but their rendered output can be difficult to reason about. A single **helm upgrade** touching a microservices application can modify dozens of Kubernetes resources simultaneously. Without a visual record, answering the question "what exactly changed between releases?" often means diffing large blocks of YAML.
+
+The Kanvas Snapshot plugin changes this by generating a topology diagram before and after each operation, giving you a side-by-side visual diff at the resource graph level.
+
+**Key Features**
+
+- **Automated snapshot capture**: Triggered automatically on helm install, helm upgrade, and helm rollback
+- **Visual diff**: Highlights added, modified, and removed resources between snapshots
+- **Rollback integration**: Link any snapshot to a specific Helm revision, enabling one-click rollback with full visual context
+- **CLI and CI/CD support**: Can be run from the terminal or incorporated into GitHub Actions pipelines
+- **Shareable URLs**: Each snapshot generates a persistent URL for sharing with team members or attaching to pull requests
+
+**Getting Started**
+
+Install the plugin with a single command:
+
+    helm plugin install https://github.com/meshery/helm-kanvas-snapshot
+
+After installation, connect it to your Meshery instance by setting the MESHERY_TOKEN and MESHERY_SERVER environment variables. From that point on, every Helm operation in your terminal or CI pipeline will produce a visual snapshot automatically.
+
+**Example Workflow**
+
+1. Run **helm upgrade my-app --set image.tag=v2.1.0**
+2. The plugin intercepts the post-install hook and renders the cluster topology
+3. A URL to the Kanvas snapshot appears in your terminal output
+4. Your team reviews the visual diff in the browser before merging the deploy PR
+
+**Why It Matters for Teams**
+
+The biggest win is communication. Instead of pointing colleagues at raw YAML diffs, you can share a URL that shows exactly how the cluster topology changed. This is particularly valuable during incident response, when time spent interpreting configuration is time not spent fixing problems.
+
+The Helm Kanvas Snapshot plugin is open source and actively maintained as part of the broader Meshery ecosystem. Contributions are welcome at the [Meshery GitHub repository](https://github.com/meshery/meshery).`
   },
   {
     id: "visual-kubernetes-topology",
