@@ -2,8 +2,9 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { useParams, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, Share2 } from "lucide-react";
 import ReactMarkdown from 'react-markdown';
+import { useToast } from "@/hooks/use-toast";
 
 interface BlogPost {
   id: string;
@@ -400,6 +401,7 @@ Remember: the perfect pancake is simple, patient, and forgiving. Treat the proce
 export const BlogPost = () => {
   const { postId } = useParams();
   const navigate = useNavigate();
+  const { toast } = useToast();
   const post = blogPosts.find(p => p.id === postId);
 
   if (!post) {
@@ -411,6 +413,21 @@ export const BlogPost = () => {
   }
 
   const shareUrl = `${window.location.origin}/blog/${post.id}`;
+
+  const handleShare = () => {
+    navigator.clipboard.writeText(shareUrl).then(() => {
+      toast({
+        title: "Link copied!",
+        description: "The post URL has been copied to your clipboard.",
+      });
+    }).catch(() => {
+      toast({
+        title: "Copy failed",
+        description: "Could not copy the link. Please copy it manually: " + shareUrl,
+        variant: "destructive",
+      });
+    });
+  };
 
   return (
     <div className="container mx-auto px-4 py-16 page-transition">
@@ -429,11 +446,10 @@ export const BlogPost = () => {
           <CardDescription>{post.date}</CardDescription>
           <Button
             variant="outline"
-            className="mt-2"
-            onClick={() => {
-              navigator.clipboard.writeText(shareUrl);
-            }}
+            className="mt-2 w-fit"
+            onClick={handleShare}
           >
+            <Share2 className="mr-2 h-4 w-4" />
             Share Post
           </Button>
         </CardHeader>
