@@ -17,6 +17,19 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@lovable_dev" />
     <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <!-- Single Page App redirect handler for GitHub Pages -->
+    <!-- https://github.com/rafgraph/spa-github-pages -->
+    <script>
+      (function(l) {
+        if (l.search[1] === '/') {
+          const decoded = l.search.slice(1).split('&').map((s) => s.replace(/~and~/g, '&'));
+          window.history.replaceState(
+            null, null,
+            decoded[0] + (decoded[1] ? '&' + decoded[1] : '') + l.hash
+          );
+        }
+      }(window.location));
+    </script>
   </head>
 
   <body>
