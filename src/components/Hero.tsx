@@ -22,7 +22,7 @@ export const Hero = () => {
               Graduate Research Assistant & Open Source Engineer
             </p>
             <p className="text-lg text-muted-foreground mb-8">
-              Based in Sydney, Australia 🇦🇺
+              University of Sydney, Australia 🇦🇺 · University of Texas, Austin 🤘
             </p>
           </div>
           <div className="flex-1 flex justify-center">
