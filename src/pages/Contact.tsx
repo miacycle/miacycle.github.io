@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { Github, Mail, MessageSquare } from "lucide-react";
+import { Github, Mail, MessageSquare, Twitter } from "lucide-react";
 import { useState } from "react";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -104,6 +104,12 @@ const Contact = () => {
               <a href="https://github.com/miacycle" target="_blank" rel="noopener noreferrer">
                 <Github className="w-5 h-5" />
                 GitHub
+              </a>
+            </Button>
+            <Button variant="secondary" asChild>
+              <a href="https://x.com/miacycle" target="_blank" rel="noopener noreferrer" className="gap-2">
+                <Twitter className="w-5 h-5" />
+                X (Twitter)
               </a>
             </Button>
             <Button variant="secondary" asChild>
