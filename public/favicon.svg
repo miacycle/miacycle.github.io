@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="32" height="32">
+  <!-- Rear wheel -->
+  <circle cx="25" cy="68" r="20" fill="none" stroke="#1a1a1a" stroke-width="4"/>
+  <circle cx="25" cy="68" r="3" fill="#1a1a1a"/>
+  <!-- Front wheel -->
+  <circle cx="75" cy="68" r="20" fill="none" stroke="#1a1a1a" stroke-width="4"/>
+  <circle cx="75" cy="68" r="3" fill="#1a1a1a"/>
+  <!-- Frame: seat tube -->
+  <line x1="42" y1="68" x2="48" y2="40" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round"/>
+  <!-- Frame: down tube -->
+  <line x1="48" y1="40" x2="25" y2="68" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round"/>
+  <!-- Frame: top tube -->
+  <line x1="48" y1="40" x2="62" y2="40" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round"/>
+  <!-- Frame: chain stay -->
+  <line x1="42" y1="68" x2="75" y2="68" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round"/>
+  <!-- Frame: seat stay -->
+  <line x1="48" y1="40" x2="75" y2="68" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round"/>
+  <!-- Fork -->
+  <line x1="62" y1="40" x2="75" y2="68" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round"/>
+  <!-- Handlebar stem -->
+  <line x1="62" y1="40" x2="62" y2="32" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round"/>
+  <line x1="56" y1="32" x2="68" y2="32" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round"/>
+  <!-- Seat post -->
+  <line x1="48" y1="40" x2="48" y2="32" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round"/>
+  <line x1="44" y1="32" x2="54" y2="32" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round"/>
+  <!-- Crank / pedal area -->
+  <circle cx="42" cy="68" r="5" fill="none" stroke="#1a1a1a" stroke-width="3"/>
+</svg>
