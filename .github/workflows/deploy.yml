@@ -1,3 +1,4 @@
+# For deployment on GitHub Pages
 name: GitHub Pages
 
 on:
