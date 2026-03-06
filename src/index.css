@@ -63,10 +63,10 @@
     @apply bg-background text-foreground;
   }
 
-  a,
-  a:visited,
-  a:hover,
-  a:active {
+  a.purple,
+  a.purple:visited,
+  a.purple:hover,
+  a.purple:active {
     color: rgba(128, 38, 217, 0.9) !important;
   }
 
