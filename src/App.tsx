@@ -23,7 +23,7 @@ const App = () => (
         <div className="relative min-h-screen overflow-x-hidden">
           <div className="fixed inset-0 z-0 pointer-events-none" aria-hidden="true">
             <img
-              src="/lovable-uploads/97ba6128-0174-4dc8-9ed6-0a4d58913834.png"
+              src="/uploads/my-bike.png"
               alt=""
               className="w-full h-full object-cover opacity-10"
             />
