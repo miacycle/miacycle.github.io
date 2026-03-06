@@ -63,6 +63,13 @@
     @apply bg-background text-foreground;
   }
 
+  a,
+  a:visited,
+  a:hover,
+  a:active {
+    color: rgba(128, 38, 217, 0.9) !important;
+  }
+
   .page-transition {
     @apply transition-all duration-300 ease-in-out;
   }

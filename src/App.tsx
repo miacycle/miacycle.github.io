@@ -12,7 +12,6 @@ import BlogCycling from "./pages/BlogCycling";
 import BlogTech from "./pages/BlogTech";
 import BlogGeneral from "./pages/BlogGeneral";
 import { BlogPost } from "./components/BlogPost";
-import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -42,7 +41,6 @@ const App = () => (
                 <Route path="/blog/tech" element={<BlogTech />} />
                 <Route path="/blog/general" element={<BlogGeneral />} />
                 <Route path="/blog/:postId" element={<BlogPost />} />
-                <Route path="/contact" element={<Contact />} />
                 <Route path="*" element={<NotFound />} />
               </Routes>
             </div>
