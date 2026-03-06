@@ -1,6 +1,7 @@
 # For deployment on GitHub Pages
 name: GitHub Pages
 
+# Deploy new site updates on direct push or through pull request
 on:
   push:
     branches:
