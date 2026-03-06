@@ -9,6 +9,7 @@ on:
   pull_request:
   workflow_dispatch:
 
+# Where the real work starts
 jobs:
   deploy:
     runs-on: ubuntu-22.04
