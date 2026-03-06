@@ -7,13 +7,6 @@ import { blogPosts } from "@/components/BlogPost";
 const Blog = () => {
   return (
     <div className="container mx-auto px-4 py-16 page-transition">
-      <div className="absolute inset-0 -z-10">
-        <img
-          src="/lovable-uploads/97ba6128-0174-4dc8-9ed6-0a4d58913834.png"
-          alt="Artistic bicycle background"
-          className="w-full h-full object-cover opacity-10"
-        />
-      </div>
       <h1 className="text-4xl font-bold mb-8">Blog</h1>
       
       <div className="mb-8 space-y-4">

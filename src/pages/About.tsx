@@ -2,13 +2,6 @@
 const About = () => {
   return (
     <div className="container mx-auto px-4 py-16 page-transition">
-      <div className="absolute inset-0 -z-10">
-        <img
-          src="/lovable-uploads/97ba6128-0174-4dc8-9ed6-0a4d58913834.png"
-          alt="Artistic bicycle background"
-          className="w-full h-full object-cover opacity-10"
-        />
-      </div>
       <h1 className="text-4xl font-bold mb-8">About Me</h1>
       <div className="prose dark:prose-invert max-w-none">
         <p className="text-lg mb-6">
