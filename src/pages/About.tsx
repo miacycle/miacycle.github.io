@@ -19,7 +19,13 @@ const About = () => {
           I'm a maintainer for <a href="https://meshery.io" className="text-blue-500 purple hover:underline">Meshery</a>, where I help develop and improve cloud native infrastructure management.
         </p>
         <p className="text-lg mb-6">
-          When I'm not coding or researching, you can find me cycling around new trails and enjoying the outdoor lifestyle that both Sydney and Austin have to offer.
+          When I'm not coding or researching, you can find me mountain biking — not just for the uphill grind and downhill action, but especially for the trail experience, with a focus on endurance and long-distance riding.
+        </p>
+        <p className="text-lg mb-6">
+          I'm deeply interested in sustainable transportation and solar power as practical pathways to a cleaner future. Whether it's human-powered transit or renewable energy infrastructure, I believe technology and intentional design can drive meaningful environmental impact.
+        </p>
+        <p className="text-lg mb-6">
+          I bring an engineering mindset to everything I do — including my performance training. I approach fitness with the same rigor I apply to software: tracking metrics, iterating on methods, and optimizing for long-term results.
         </p>
       </div>
 
