@@ -7,8 +7,43 @@ const Projects = () => {
         <div className="bg-card p-6 rounded-lg">
           <h2 className="text-2xl font-semibold mb-4">Meshery</h2>
           <p className="text-muted-foreground">
-          As a self-service engineering platform, Meshery enables collaborative design and operation of cloud and cloud native infrastructure.
+            As a self-service engineering platform, Meshery enables collaborative design and operation of cloud and cloud native infrastructure.
           </p>
+          <div className="mt-4 rounded-lg border border-primary/20 bg-primary/5 p-4">
+            <p className="text-sm font-medium uppercase tracking-wide text-primary">
+              Latest announcement
+            </p>
+            <h3 className="mt-2 text-lg font-semibold">Meshery v1.0 is generally available</h3>
+            <p className="mt-2 text-muted-foreground">
+              Announced at KubeCon + CloudNativeCon Europe 2026, Meshery v1.0 introduces
+              Infrastructure as Design with Kanvas Designer in general availability and
+              Kanvas Operator in beta, giving teams a visual governance layer for cloud
+              native infrastructure.
+            </p>
+            <ul className="mt-3 list-disc space-y-1 pl-5 text-sm text-muted-foreground">
+              <li>Visual, collaborative reviews for infrastructure changes</li>
+              <li>Multi-cluster design and operations from a shared workspace</li>
+              <li>New Certified Meshery Contributor program for the community</li>
+            </ul>
+            <div className="mt-4 flex flex-wrap gap-4 text-sm">
+              <a
+                href="https://meshery.io/blog/meshery-v1.0-general-availability/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 purple hover:underline"
+              >
+                Read the announcement
+              </a>
+              <a
+                href="https://github.com/meshery/meshery/releases/tag/v1.0.0"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 purple hover:underline"
+              >
+                View release notes
+              </a>
+            </div>
+          </div>
         </div>
         
         <div className="bg-card p-6 rounded-lg">
